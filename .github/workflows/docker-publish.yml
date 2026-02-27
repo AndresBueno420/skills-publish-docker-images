@@ -10,8 +10,8 @@ on:
       - main
   workflow_dispatch:
 permissions:
-  contents: write
-  packages: read
+  contents: read
+  packages: write
 
 jobs:
   build-and-push:
